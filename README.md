@@ -13,10 +13,12 @@
 # Summary
 
 <li><strong><a href="#introduciton">Introduction</a></strong></li>
-<li><strong><a href="#download">Download</a></strong></li>
 <li><strong><a href="#installation">Installation</a></strong></li>
 <ul>
 <li><a href="#sdcard">1) SD Card</a></li>
+<li><a href="#source">2) From Source</a></li>
+<li><a href="#bin">3) From .BIN</a></li>
+
 </ul>
 <li><strong><a href="#firmware">Firmware</a></strong></li>
 <ul dir="auto">
@@ -55,11 +57,28 @@ This firmware allows the following attacks:
 <li>Rolljam</li>
 <li>Rollback</li>
 <li>Jammer</li>
+<li>...</li>
+
 </ul>
 
 **Supported protocol: Princeton (24bits) , Holtek HT12X (12bits) , CAME (12bits) , CAME (18bits) , CAME (24bits) , CAME (25bits) , SMC5326 (25bits) , Nice FLO (12bits) , Nice FLO (24bits) , GateTX (24bits)
 
-# Download<a id="download"></a>
+# Installation<a id="installation"></a>
+
+## 1) SD Card<a id="sdcard"></a>
+- Place the 'CONFIG' folder on a MicroSD card.
+- Place the 'HTML' folder on a MicroSD card.
+- Place the 'SUBGHZ' folder on a MicroSD card.
+ 
+## .SUB File
+
+- Place your file** (.sub) in the 'SUBGHZ' folder.
+ 
+ **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
+ 
+## 2) From Source<a id="source"></a>
+
+## Download<a id="download"></a>
 
  - Download and install ESPAsyncWebServer library: https://github.com/me-no-dev/ESPAsyncWebServer
  - Download and install AsyncElegantOTA library: https://github.com/ayushsharma82/AsyncElegantOTA
@@ -67,17 +86,14 @@ This firmware allows the following attacks:
  - Download and install ArduinoJson library: https://github.com/bblanchon/ArduinoJson
  
 <a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
-
-# Installation<a id="installation"></a>
-
-## 1) SD Card<a id="sdcard"></a>
-1) Place the 'CONFIG' folder on a MicroSD card.
-2) Place the 'HTML' folder on a MicroSD card.
-3) Place the 'SUBGHZ' folder on a MicroSD card.
  
-## .SUB RAW File
-
- - Place your file (.sub) in the 'SUBGHZ' folder.
+ - ...
+ 
+ ## 3) From .BIN<a id="bin"></a>
+ 
+ - <a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
+ - <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
+ - ...
  
 # Firmware<a id="firmware"></a>
 ## 1) Record<a id="record"></a>
