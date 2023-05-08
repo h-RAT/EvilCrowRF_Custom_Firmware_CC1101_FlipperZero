@@ -170,7 +170,7 @@ This firmware allows the following attacks:
 <li>925.00 mHz</li>
 </ul>
 <br>
-<li><strong>You can apply the found frequency.</strong></li>
+<li><strong>You can apply the frequency found.</strong></li>
 <img src="https://i.imgur.com/WJRIoNc.png" alt="IMAGE ALT TEXT">
 
 ## 6) Bruteforcer<a id="bruteforcer"></a>
