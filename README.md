@@ -66,9 +66,9 @@ This firmware allows the following attacks:
 # Installation<a id="installation"></a>
 
 ## 1) SD Card<a id="sdcard"></a>
-- Place the 'CONFIG' folder on a MicroSD card.
-- Place the 'HTML' folder on a MicroSD card.
-- Place the 'SUBGHZ' folder on a MicroSD card.
+- Download and place the 'CONFIG' folder on a MicroSD card.
+- Download and place the 'HTML' folder on a MicroSD card.
+- Download and pPlace the 'SUBGHZ' folder on a MicroSD card.
  
 ## .SUB File
 
@@ -87,7 +87,9 @@ This firmware allows the following attacks:
  
 <a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
  
- - ...
+ - Download and upload EvilCrowRF firmware.
+
+<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to upload a firmware ?</a>
  
  ## 3) From .BIN<a id="bin"></a>
  
