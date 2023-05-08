@@ -13,6 +13,12 @@
 # Summary
 
 <li><strong><a href="#introduciton">Introduction</a></strong></li>
+<li><strong><a href="#installation">Installation</a></strong></li>
+<ul>
+<li><a href="#sdcard">1) MicroSD Card</a></li>
+<li><a href="#source">2) From Source</a></li>
+<li><a href="#bin">3) From .BIN</a></li>
+</ul>
 <li><strong><a href="#firmware">Firmware</a></strong></li>
 <ul>
 <li><a href="#record">1) Record</a></li>
@@ -30,12 +36,6 @@
 <li><a href="#ecrf">13) ECRF Settings</a></li>
 <li><a href="#update">14) Firmware Update</a></li>
 <li><a href="#reboot">15) Reboot</a></li>
-</ul>
-<li><strong><a href="#installation">Installation</a></strong></li>
-<ul>
-<li><a href="#sdcard">1) MicroSD Card</a></li>
-<li><a href="#source">2) From Source</a></li>
-<li><a href="#bin">3) From .BIN</a></li>
 </ul>
 <li><strong><a href="#disclaimer">Disclaimer</a></strong></li>
 
@@ -62,6 +62,40 @@ This firmware allows the following attacks:
 </ul>
 
 **Supported protocol: Princeton (24bits) , Holtek HT12X (12bits) , CAME (12bits) , CAME (18bits) , CAME (24bits) , CAME (25bits) , SMC5326 (25bits) , Nice FLO (12bits) , Nice FLO (24bits) , GateTX (24bits)
+
+# Installation<a id="installation"></a>
+
+## 1) MicroSD Card<a id="sdcard"></a>
+- Download and place the 'CONFIG' folder on a MicroSD card.
+- Download and place the 'HTML' folder on a MicroSD card.
+- Download and pPlace the 'SUBGHZ' folder on a MicroSD card.
+ 
+## .SUB File
+
+- Place your file** (.sub) in the 'SUBGHZ' folder.
+ 
+ **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
+ 
+## 2) From Source<a id="source"></a>
+
+## Download<a id="download"></a>
+
+ - Download and install ESPAsyncWebServer library: https://github.com/me-no-dev/ESPAsyncWebServer
+ - Download and install AsyncElegantOTA library: https://github.com/ayushsharma82/AsyncElegantOTA
+ - Download and install AsyncTCP library: https://github.com/me-no-dev/AsyncTCP
+ - Download and install ArduinoJson library: https://github.com/bblanchon/ArduinoJson
+ 
+<a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
+ 
+ - Download and upload EvilCrowRF firmware.
+
+<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to upload a firmware ?</a>
+ 
+ ## 3) From .BIN<a id="bin"></a>
+ 
+ - <a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
+ - <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
+ - ...
 
 # Firmware<a id="firmware"></a>
 
@@ -267,40 +301,6 @@ This firmware allows the following attacks:
 ## 14) Firmware Update<a id="update"></a>
 
 ## 15) Reboot<a id="reboot"></a>
-
-# Installation<a id="installation"></a>
-
-## 1) MicroSD Card<a id="sdcard"></a>
-- Download and place the 'CONFIG' folder on a MicroSD card.
-- Download and place the 'HTML' folder on a MicroSD card.
-- Download and pPlace the 'SUBGHZ' folder on a MicroSD card.
- 
-## .SUB File
-
-- Place your file** (.sub) in the 'SUBGHZ' folder.
- 
- **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
- 
-## 2) From Source<a id="source"></a>
-
-## Download<a id="download"></a>
-
- - Download and install ESPAsyncWebServer library: https://github.com/me-no-dev/ESPAsyncWebServer
- - Download and install AsyncElegantOTA library: https://github.com/ayushsharma82/AsyncElegantOTA
- - Download and install AsyncTCP library: https://github.com/me-no-dev/AsyncTCP
- - Download and install ArduinoJson library: https://github.com/bblanchon/ArduinoJson
- 
-<a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
- 
- - Download and upload EvilCrowRF firmware.
-
-<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to upload a firmware ?</a>
- 
- ## 3) From .BIN<a id="bin"></a>
- 
- - <a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
- - <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
- - ...
 
 # Disclaimer<a id="disclaimer"></a>
 
