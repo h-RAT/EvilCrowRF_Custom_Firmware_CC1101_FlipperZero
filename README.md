@@ -64,6 +64,7 @@ This firmware allows the following attacks:
 **Supported protocol: Princeton (24bits) , Holtek HT12X (12bits) , CAME (12bits) , CAME (18bits) , CAME (24bits) , CAME (25bits) , SMC5326 (25bits) , Nice FLO (12bits) , Nice FLO (24bits) , GateTX (24bits)
 
 # Firmware<a id="firmware"></a>
+
 ## 1) Record<a id="record"></a>
 
 <li><strong>You have the choice to use the existing presets:</strong></li>
