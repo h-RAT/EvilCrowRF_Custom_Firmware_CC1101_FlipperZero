@@ -74,7 +74,7 @@ This firmware allows the following attacks:
 <li>FM238 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 2.38 kHz)</li>
 <li>FM4768 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 47.61 kHz)</li>
 </ul>
-<img src="https://i.imgur.com/Fc3XsAf.png" alt="IMAGE ALT TEXT">
+<img src="https://i.imgur.com/tvCItnk.png" alt="IMAGE ALT TEXT">
 
 <li><strong>Received signal format:</strong></li>
 <ul>
@@ -118,7 +118,8 @@ This firmware allows the following attacks:
 
 ## 3) Saved<a id="saved"></a>
 <li><strong>You can upload a signal (.sub) to the MicroSD card from the webpanel.</strong></li>
-<br>
+<img src="https://i.imgur.com/qLmZ1gM.png" alt="IMAGE ALT TEXT">
+
 <li><strong>You can send a signal (.sub) from the MicroSD card.</strong></li>
 <ul>
 <li>Max. Lenght: 4096</li>
@@ -132,6 +133,7 @@ This firmware allows the following attacks:
 <li>Button 1</li>
 <li>Button 2</li>
 </ul>
+<img src="https://i.imgur.com/Fqeqzk7.png" alt="IMAGE ALT TEXT">
 
 ## 4) Jammer<a id="jammer"></a>
 <li><strong>You can select many jamming power:</strong></li>
@@ -143,6 +145,7 @@ This firmware allows the following attacks:
 <li>5</li>
 <li>0 (Min.)</li>
 </ul>
+<img src="https://i.imgur.com/AJOqqx3.png" alt="IMAGE ALT TEXT">
 
 ## 5) Scanner<a id="scanner"></a>
 <li><strong>You can scan with min. RSSI many frequencies:</strong></li>
@@ -166,6 +169,9 @@ This firmware allows the following attacks:
 <li>915.00 mHz</li>
 <li>925.00 mHz</li>
 </ul>
+<br>
+<li><strong>You can apply the found frequency.</strong></li>
+<img src="https://i.imgur.com/WJRIoNc.png" alt="IMAGE ALT TEXT">
 
 ## 6) Bruteforcer<a id="bruteforcer"></a>
 <li><strong>You can bruteforce a decimal signal with a known protocol:</strong></li>
@@ -183,6 +189,7 @@ This firmware allows the following attacks:
 <br>
 <li>Max. Decimal: 2147483647</li>
 </ul>
+<img src="https://i.imgur.com/a4l4hr7.png" alt="IMAGE ALT TEXT">
 
 ## 7) CC1101 Settings<a id="cc1101"></a>
 <li><strong>You have the choice to use the existing presets:</strong></li>
@@ -193,18 +200,20 @@ This firmware allows the following attacks:
 <li>FM238 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 2.38 kHz)</li>
 <li>FM4768 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 47.61 kHz)</li>
 </ul>
+<img src="https://i.imgur.com/tvCItnk.png" alt="IMAGE ALT TEXT">
 
 <li><strong>You can assign a module for RX:</strong></li>
 <ul>
 <li>Module 1</li>
 <li>Module 2</li>
 </ul>
-
+<br>
 <li><strong>You can assign a module for TX:</strong></li>
 <ul>
 <li>Module 1</li>
 <li>Module 2</li>
 </ul>
+<img src="https://i.imgur.com/OFI0YGl.png" alt="IMAGE ALT TEXT">
 
 <li><strong>You can assign a frequency:</strong></li>
 <ul>
@@ -238,9 +247,9 @@ This firmware allows the following attacks:
 <ul>
 <li>Synchronous</li>
 <li>Radnom</li>
-<li>Asynchronous</li>
-  
+<li>Asynchronous</li>  
 </ul>
+<img src="https://i.imgur.com/egWK8tW.png" alt="IMAGE ALT TEXT">
 
 ## 8) Kaiju Analyze<a id="kaiju"></a>
 
