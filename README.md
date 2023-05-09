@@ -288,9 +288,18 @@ This firmware allows the following attacks:
 
 ## 8) Kaiju Analyze<a id="kaiju"></a>
 
+<li><strong>You can analyze the signals received with Kaiju.</strong></li>
+<img src="https://i.imgur.com/p0nV8PU.png" alt="IMAGE ALT TEXT">
+
 ## 9) Kaiju Rolling Codes<a id="rolling"></a>
 
+<li><strong>You can generate rolling codes with Kaiju.</strong></li>
+<img src="https://i.imgur.com/pE7T7cU.png" alt="IMAGE ALT TEXT">
+
 ## 10) Rolljam Attack<a id="rolljam"></a>
+
+<li><strong>You can perform a rolljam attack.</strong></li>
+<img src="https://i.imgur.com/zMDSQHh.png" alt="IMAGE ALT TEXT">
 
 ## 11) Rollback Attack<a id="rollback"></a>
 
