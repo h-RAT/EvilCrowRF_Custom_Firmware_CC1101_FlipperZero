@@ -57,6 +57,8 @@
 <li><a href="#sdcard">1) MicroSD Card</a></li>
 <li><a href="#source">2) From Source</a></li>
 <li><a href="#bin">3) From .BIN</a></li>
+<li><a href="#rollfirm">4) Rolljam Firmware</a></li>
+
 </ul>
 <li><strong><a href="#firmware">Firmware</a></strong></li>
 <ul>
@@ -137,6 +139,26 @@ This firmware allows the following attacks:
 <br>
 <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
 
+ ## 4) Rolljam Firmware<a id="rollfirm"></a>
+ 
+<div align="center">
+  <img src="https://i.imgur.com/IY5tRbk.png" alt="IMAGE ALT TEXT">
+</div>
+ 
+ - Download and upload Rolljam firmware on your second device.
+ 
+<a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
+<br>
+<a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
+
+The first device must be powered ON and connected to the default ECRF network. (SSID: ECRF | Password: 123456789)
+
+ - Plug your second device into your computer and get the IP address from the serial monitor. (Baudrate: 38400)
+
+ - Go to the EvilCrowRF web panel and set the IP address of the second device. (ECRF Settings -> Jammer Device -> Local IP Address)
+
+ - Now you can start a rolljam attack.
+ 
 # Firmware<a id="firmware"></a>
 
 ## 1) Record<a id="record"></a>
@@ -338,9 +360,13 @@ This firmware allows the following attacks:
 
 ## 10) Rolljam Attack<a id="rolljam"></a>
 
+<div align="center">
+  <img src="https://i.imgur.com/IY5tRbk.png" alt="IMAGE ALT TEXT">
+</div>
+
 <li><strong>You can perform a rolljam attack with different parameters:</strong></li>
 <ul>
-<li>Record Frquency</li>
+<li>Record Frequency</li>
 <li>Record Modulation</li>
 <li>Jammer Frequency (Usually: Record Frequency - 0.10 mHz)</li>  
 <li>Jammer Power</li>
