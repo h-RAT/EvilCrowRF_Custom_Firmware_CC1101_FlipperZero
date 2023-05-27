@@ -1,6 +1,39 @@
 # EvilCrowRF_Custom_Firmware
 
+<strong>Idea, development and implementation of this firmware:</strong> h-RAT (https://github.com/h-RAT/).
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y1L3OUQ)
+
+<br>
+
+<strong>Idea, development and implementation of the original firmware:</strong> Joel Serna (@JoelSernaMoreno - https://github.com/joelsernamoreno/).
+
+<strong>Main collaborator:</strong> Little Satan (https://github.com/LSatan/)
+
+<strong>PCB design:</strong> Ignacio Díaz Álvarez (@Nacon_96), Forensic Security (@ForensicSec) and April Brother (@aprbrother).
+
+<strong>Manufacturer and distributor:</strong> April Brother (@aprbrother).
+
+<strong>Distributor from United Kingdom:</strong> KSEC Worldwide (@KSEC_KC).
+
+<strong>For sale with April Brother (shipping from China):</strong>
+<ul>
+<li>Evil Crow RF V2 Aliexpress: https://aliexpress.com/item/1005004019072519.html</li>
+<li>Evil Crow RF V2 Lite (without NRF2401L) Aliexpress: https://aliexpress.com/item/1005004032930927.html</li>
+<li>Evil Crow RF V2 Alibaba: https://www.alibaba.com/product-detail/Evil-Crow-RF2-signal-receiver-with_1600467911757.html</li>
+</ul>
+
+<br>
+
+<strong>For sale with KSEC Worldwide (shipping from United Kingdom):</strong>
+<ul>
+<li>Evil Crow RF V2: https://labs.ksec.co.uk/product/evil-crow-rf-v2/</li>
+<li>Evil Crow RF V2 Lite: https://labs.ksec.co.uk/product/evil-crow-rf2-lite/</li>
+</ul>
+
+<br>
+
+<strong>Discord Group:</strong> https://discord.gg/evilcrowrf
 
 # Preview
 
@@ -35,7 +68,6 @@
 <li><a href="#logs">12) ECRF Logs</a></li>
 <li><a href="#ecrf">13) ECRF Settings</a></li>
 <li><a href="#update">14) Firmware Update</a></li>
-<li><a href="#reboot">15) Reboot</a></li>
 </ul>
 <li><strong><a href="#disclaimer">Disclaimer</a></strong></li>
 
@@ -76,7 +108,7 @@ This firmware allows the following attacks:
  
  **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
  
-## 2) From Source<a id="source"></a>
+## 2) From Source (soon)<a id="source"></a>
 
 ## Download<a id="download"></a>
 
@@ -87,15 +119,17 @@ This firmware allows the following attacks:
  
 <a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
  
- - Download and upload EvilCrowRF firmware.
+ - Download and compile EvilCrowRF firmware.
 
-<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to upload a firmware ?</a>
+<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to compile a firmware ?</a>
  
  ## 3) From .BIN<a id="bin"></a>
  
- - <a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
- - <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
- - ...
+ - Download and upload EvilCrowRF firmware.
+ 
+<a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
+<br>
+<a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
 
 # Firmware<a id="firmware"></a>
 
@@ -298,18 +332,68 @@ This firmware allows the following attacks:
 
 ## 10) Rolljam Attack<a id="rolljam"></a>
 
-<li><strong>You can perform a rolljam attack.</strong></li>
+<li><strong>You can perform a rolljam attack with different parameters:</strong></li>
+<ul>
+<li>Record Frquency</li>
+<li>Record Modulation</li>
+<li>Jammer Frequency (Usually: Record Frequency - 0.10 mHz)</li>  
+<li>Jammer Power</li>
+</ul>
+
+<li><strong>You can send the second signal.</strong></li>
+<li><strong>You can save the second signal to send it later.</strong></li>
 <img src="https://i.imgur.com/zMDSQHh.png" alt="IMAGE ALT TEXT">
 
 ## 11) Rollback Attack<a id="rollback"></a>
 
+<li><strong>You can perform a rollback attack with different parameters:</strong></li>
+<ul>
+<li>Record Frquency</li>
+<li>Record Modulation</li>
+<li>Time Frame</li>  
+<li>Signal Required</li>
+</ul>
+
+<li><strong>You can send the rollback sequence.</strong></li>
+<li><strong>You can save the rollback sequence to send it later.</strong></li>
+<img src="https://i.imgur.com/IW1Rm22.png" alt="IMAGE ALT TEXT">
+
 ## 12) ECRF Logs<a id="logs"></a>
+
+<li><strong>You can view the device logs.</strong></li>
+<li><strong>You can download the device logs.</strong></li>
+<li><strong>You can delete the device logs.</strong></li>
+<img src="https://i.imgur.com/wYtJ5eQ.png" alt="IMAGE ALT TEXT">
 
 ## 13) ECRF Settings<a id="ecrf"></a>
 
+<li><strong>You can view the device uptime.</strong></li>
+<li><strong>You can view the device free ram.</strong></li>
+<img src="https://i.imgur.com/bRD5ARU.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can assign your kaiju token.</strong></li>
+<img src="https://i.imgur.com/wuuvEy0.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can assign an action to the button:</strong></li>
+<ul>
+<li>Send Tesla (US) Signal</li>
+<li>Send Tesla (EU) Signal</li>
+<li>Start Record Signal</li>  
+<li>Send Last Recorded Signal</li>
+<li>Send SD Selected Signal</li>  
+<li>Start Jammer (315.00 mHz)</li>  
+<li>Start Jammer (433.92 mHz)</li>  
+<li>Start Jammer (868.35 mHz)</li>  
+<li>Stop Jammer</li>  
+</ul>
+<img src="https://i.imgur.com/fGX4wKS.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can adjust wifi settings.</strong></li>
+<img src="https://i.imgur.com/SGmQQ6T.png" alt="IMAGE ALT TEXT">
+
 ## 14) Firmware Update<a id="update"></a>
 
-## 15) Reboot<a id="reboot"></a>
+<li><strong>You can update the firmware from the web panel.</strong></li>
 
 # Disclaimer<a id="disclaimer"></a>
 
@@ -318,5 +402,3 @@ Evil Crow RF is a basic device for professionals and cybersecurity enthusiasts.
 We are not responsible for the incorrect use of Evil Crow RF.
 
 Be careful with this device and the transmission of signals. Make sure to follow the laws that apply to your country.
-
-Official firmware: https://github.com/joelsernamoreno/EvilCrowRF-V2
