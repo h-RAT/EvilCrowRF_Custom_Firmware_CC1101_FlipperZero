@@ -54,13 +54,12 @@
 <li><strong><a href="#introduciton">Introduction</a></strong></li>
 <li><strong><a href="#installation">Installation</a></strong></li>
 <ul>
-<li><a href="#sdcard">1) MicroSD Card</a></li>
-<li><a href="#source">2) From Source</a></li>
-<li><a href="#bin">3) From .BIN</a></li>
+<li><a href="#sdfiles">1) SD Files</a></li>
+<li><a href="#firmware">2) Firmware</a></li>
+<li><a href="#webpanel">3) Webpanel</a></li>
 <li><a href="#rollfirm">4) Rolljam Firmware</a></li>
-
 </ul>
-<li><strong><a href="#firmware">Firmware</a></strong></li>
+<li><strong><a href="#features">Features</a></strong></li>
 <ul>
 <li><a href="#record">1) Record</a></li>
 <li><a href="#transmit">2) Transmit</a></li>
@@ -105,7 +104,7 @@ This firmware allows the following attacks:
 
 # Installation<a id="installation"></a>
 
-## 1) MicroSD Card<a id="sdcard"></a>
+## 1) SD Files<a id="sdfiles"></a>
 - Download and place the 'CONFIG' folder on a MicroSD card.
 - Download and place the 'HTML' folder on a MicroSD card.
 - Download and pPlace the 'SUBGHZ' folder on a MicroSD card.
@@ -116,28 +115,24 @@ This firmware allows the following attacks:
  
  **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
  
-## 2) From Source (soon)<a id="source"></a>
+## 2) Firmware<a id="firmware"></a>
 
-## Download<a id="download"></a>
-
- - Download and install ESPAsyncWebServer library: https://github.com/me-no-dev/ESPAsyncWebServer
- - Download and install AsyncElegantOTA library: https://github.com/ayushsharma82/AsyncElegantOTA
- - Download and install AsyncTCP library: https://github.com/me-no-dev/AsyncTCP
- - Download and install ArduinoJson library: https://github.com/bblanchon/ArduinoJson
- 
-<a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries">How to install a library ?</a>
- 
- - Download and compile EvilCrowRF firmware.
-
-<a href="https://lastminuteengineers.com/esp32-arduino-ide-tutorial/">How to compile a firmware ?</a>
- 
- ## 3) From .BIN<a id="bin"></a>
- 
  - Download and upload EvilCrowRF firmware.
  
 <a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
 <br>
 <a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
+
+ ## 3) Webpanel<a id="webpanel"></a>
+ 
+ - Connect your mobile/laptop/computer to this Wi-Fi:
+
+SSID: ECRF<br>
+Password: 123456789
+
+ - Open a browser and navigate to the web panel. (Default IP: 192.168.4.1)
+ 
+ - Enjoy
 
  ## 4) Rolljam Firmware<a id="rollfirm"></a>
  
@@ -159,7 +154,7 @@ The first device must be powered ON and connected to the default ECRF network. (
 
  - Now you can start a rolljam attack.
  
-# Firmware<a id="firmware"></a>
+# Features<a id="features"></a>
 
 ## 1) Record<a id="record"></a>
 
