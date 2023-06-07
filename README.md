@@ -1,4 +1,4 @@
-# EvilCrowRF_Custom_Firmware
+# EvilCrowRF_Custom_Firmware_CC1101_FlipperZero
 
 <strong>Idea, development and implementation of this firmware:</strong> h-RAT (https://github.com/h-RAT/).
 
