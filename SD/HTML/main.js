@@ -93,7 +93,7 @@
 			opt.innerHTML = '/';
 			select.appendChild(opt);
 			
-			for (var i = 1; i < arrayLength; i++) {
+			for (var i = 0; i < arrayLength; i++) {
 				var opt = document.createElement('option');
 				opt.value = array[i];
 				opt.innerHTML = array[i];
