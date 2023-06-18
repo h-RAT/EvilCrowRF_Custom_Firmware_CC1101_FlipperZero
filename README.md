@@ -117,11 +117,14 @@ This firmware allows the following attacks:
  
 ## 2) Firmware<a id="firmware"></a>
 
- - Download and upload EvilCrowRF firmware.
- 
-<a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
-<br>
-<a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
+- Install the .bin from OTA
+- or -->
+- Download & execute ESPHome-Flasher
+- Select COM port
+- Select .bin file
+- Press Flash ESP (You may need to put your device in download mode)
+
+<a href="https://github.com/esphome/esphome-flasher/releases">ESPHome-Flasher</a>
 
  ## 3) Webpanel<a id="webpanel"></a>
  
