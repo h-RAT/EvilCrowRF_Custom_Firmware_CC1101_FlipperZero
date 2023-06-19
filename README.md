@@ -145,11 +145,18 @@ Password: 123456789
   <img src="https://i.imgur.com/IY5tRbk.png" alt="IMAGE ALT TEXT">
 </div>
  
- - Download and upload Rolljam firmware on your second device.
+ Download and upload Rolljam firmware on your second device.
  
-<a href="https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/">How to upload .bin file from esptool ?</a>
+- Install the .bin from OTA
+- or -->
+- Download & execute ESPHome-Flasher
+- Select COM port
+- Select .bin file
+- Press Flash ESP (You may need to put your device in download mode)
+
+<a href="https://github.com/esphome/esphome-flasher/releases">ESPHome-Flasher</a>
+
 <br>
-<a href="https://esp.huhn.me/">How to upload .bin file from the web ?</a>
 
 The first device must be powered ON and connected to the default ECRF network. (SSID: ECRF | Password: 123456789)
 
