@@ -1,7 +1,9 @@
 # EvilCrowRF_Custom_Firmware_CC1101_FlipperZero
 
 <strong>Idea, development and implementation of this firmware:</strong> h-RAT (https://github.com/h-RAT/).
-
+<br><br>
+<strong>Discord: h-RAT#2465</strong>
+<br><br>
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y1L3OUQ)
 
 <br>
