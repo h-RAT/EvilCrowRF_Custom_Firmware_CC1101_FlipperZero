@@ -178,29 +178,28 @@ The first device must be powered ON and connected to the default ECRF network. (
 <li>FM238 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 2.38 kHz)</li>
 <li>FM4768 ( Modulation: 2FSK | Bandwidth: 270.83 kHz | Deviation: 47.61 kHz)</li>
 </ul>
-<img src="https://i.imgur.com/tvCItnk.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can adjust the minimum RSSI.</strong></li>
+
+<img src="https://i.imgur.com/lkwCiWu.png" alt="IMAGE ALT TEXT">
 
 <li><strong>Received signal format:</strong></li>
 <ul>
 <li>RAW Data with sample count:</li>
 <li>-1004 370 -424 404 -389 405 -389 403 -421 374 -420 373 -388 406 -421 408 -389 409 -386 409 | Sample: 20</li>
-<img src="https://i.imgur.com/e6eiUOz.png" alt="IMAGE ALT TEXT">
-
 <li>Binary with symbol count:</li>
 <li>1001001001001001001101101101101101001101101001001001001001101101001101101101101101101001101101001 | Symbol: 398</li>
 </ul>
-<img src="https://i.imgur.com/Adus3qS.png" alt="IMAGE ALT TEXT">
 
+<img src="https://i.imgur.com/rQjLC99.png" alt="IMAGE ALT TEXT">
+
+<li><strong>Possibility to send the signal in flipper zero .sub file format.</strong></li>
+<li><strong>Possibility to analyze the signal with Kaiju.</strong></li>
 <li><strong>Possibility to save the signal in flipper zero .sub file format.</strong></li>
-<ul>
-<li>Filetype: Flipper SubGhz RAW File</li>
-<li>Version: 1</li>
-<li>Frequency: 433920000</li>
-<li>Preset: FuriHalSubGhzPresetOok650Async</li>
-<li>Protocol: RAW</li>
-<li>RAW_Data: -1004 370 -424 404 -389 405 -389 403 -421 374 -420 373 -388 406 -421 408 -389 409 -386 409</li>
-</ul>
-<img src="https://i.imgur.com/48GYkcU.png" alt="IMAGE ALT TEXT">
+
+<br>
+
+<img src="https://i.imgur.com/7NE5ZQH.png" alt="IMAGE ALT TEXT">
 
 ## 2) Transmit<a id="transmit"></a>
 <li><strong>You can send a decimal signal with a known protocol:</strong></li>
@@ -240,6 +239,8 @@ The first device must be powered ON and connected to the default ECRF network. (
 <img src="https://i.imgur.com/Fqeqzk7.png" alt="IMAGE ALT TEXT">
 
 ## 4) Jammer<a id="jammer"></a>
+<li><strong>You can jam both frequency at the same time.</strong></li>
+
 <li><strong>You can select many jamming power:</strong></li>
 <ul>
 <li>12 (Max.)</li>
@@ -249,7 +250,7 @@ The first device must be powered ON and connected to the default ECRF network. (
 <li>5</li>
 <li>0 (Min.)</li>
 </ul>
-<img src="https://i.imgur.com/AJOqqx3.png" alt="IMAGE ALT TEXT">
+<img src="https://i.imgur.com/dMQA0h7.png" alt="IMAGE ALT TEXT">
 
 ## 5) Scanner<a id="scanner"></a>
 <li><strong>You can scan with min. RSSI many frequencies:</strong></li>
@@ -294,6 +295,41 @@ The first device must be powered ON and connected to the default ECRF network. (
 <li>Max. Decimal: 2147483647</li>
 </ul>
 <img src="https://i.imgur.com/a4l4hr7.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can bruteforce the jukebox:</strong></li>
+<ul>
+<li>Free Credit</li>
+<li>Pause Song</li>
+<li>Skip Song</li>
+<li>Volume UP</li>
+<li>Volume DOWN</li>
+<li>Power OFF</li>
+<li>Lock Queue</li>
+<br>
+<li>Default ID (0x00) used. Most jukeboxes use the default ID.</li>
+</ul>
+<img src="https://i.imgur.com/vcaWlY6.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can bruteforce DIP Switch remote controls:</strong></li>
+<ul>
+<li>Linear Multicode (10DIP)</li>
+<li>Stanley Multicode (10DIP)</li>
+<li>Chamberlain (9DIP)</li>
+<li>Chamberlain (8DIP)</li>
+<li>Chamberlain (7DIP)</li>
+<li>Linear MooreMatic (8DIP)</li>
+</ul>
+<img src="https://i.imgur.com/SM6jdyh.png" alt="IMAGE ALT TEXT">
+
+<li><strong>You can send De Bruijn sequences (Open Sesame):</strong></li>
+<ul>
+<li>Linear Multicode (10bits)</li>
+<li>Stanley Multicode (10bits)</li>
+<li>Chamberlain (9bits)</li>
+<li>Linear MooreMatic (8bits)</li>
+</ul>
+<img src="https://i.imgur.com/CT5cG6s.png" alt="IMAGE ALT TEXT">
+
 
 ## 7) CC1101 Settings<a id="cc1101"></a>
 <li><strong>You have the choice to use the existing presets:</strong></li>
@@ -363,7 +399,10 @@ The first device must be powered ON and connected to the default ECRF network. (
 ## 9) Kaiju Rolling Codes<a id="rolling"></a>
 
 <li><strong>You can generate rolling codes with Kaiju.</strong></li>
-<img src="https://i.imgur.com/pE7T7cU.png" alt="IMAGE ALT TEXT">
+<li><strong>You can send the rolling codes generated.</strong></li>
+<li><strong>You can save the rolling codes generated.</strong></li>
+
+<img src="https://i.imgur.com/dwfO4Gn.png" alt="IMAGE ALT TEXT">
 
 ## 10) Rolljam Attack<a id="rolljam"></a>
 
