@@ -115,7 +115,7 @@ This firmware allows the following attacks:
 
 - Place your file** (.sub) in the 'SUBGHZ' folder.
  
- **Supported protocol: RAW, Princeton , Holtek HT12X , CAME , SMC5326 , Nice FLO , GateTX
+ **Supported protocol: AlutechAT, Ansonic, BETT, CAME, Clemsa, Doitrand, Dooya, FAAC, GateTX, Holtek, Holtek HT12X, Hormann, IntertechnoV3, KeeLoq, Linear, LinearDelta3, Magellan, Marantec, Nero Radio, Nero Sketch, Nice FLO, PhoenixV2, PowerSmart, Princeton, RAW, SMC5326, Security+ 1.0, Security+ 2.0, Starline, UNILARM
  
 ## 2) Firmware<a id="firmware"></a>
 
