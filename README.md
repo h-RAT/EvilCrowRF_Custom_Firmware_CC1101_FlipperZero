@@ -21,8 +21,6 @@
 <strong>For sale with April Brother (shipping from China):</strong>
 <ul>
 <li>Evil Crow RF V2 Aliexpress: https://www.aliexpress.com/item/1005004032930927.html</li>
-<li>Evil Crow RF V2 Lite (without NRF2401L) Aliexpress: https://aliexpress.com/item/1005004032930927.html</li>
-<li>Evil Crow RF V2 Alibaba: https://www.alibaba.com/product-detail/Evil-Crow-RF2-signal-receiver-with_1600467911757.html</li>
 </ul>
 
 <br>
