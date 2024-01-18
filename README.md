@@ -33,7 +33,7 @@
 
 <br>
 
-<strong>Discord Group:</strong> https://discord.gg/evilcrowrf
+<strong>Discord Group:</strong> https://discord.gg/Rb2j3jA5Ym
 
 # Preview
 
